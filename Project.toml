@@ -1,0 +1,4 @@
+name = "DwellersOfTeuban"
+uuid = "7a4c9f0d-194f-4c10-ba02-c36e2577296d"
+authors = ["Jonathan Fogel <jonathan.fogel@ll.mit.edu>"]
+version = "0.1.0"

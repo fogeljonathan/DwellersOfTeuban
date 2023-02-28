@@ -1,5 +1,5 @@
 module DwellersOfTeuban
-
+import Gtk, Test, Plots
 include("mapstructures.jl")
 export
     PathNode,

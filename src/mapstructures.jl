@@ -24,3 +24,17 @@ mutable struct StructureNode
     port::Bool #defaults to false
 end
 StructureNode() = StructureNode(nothing, nothing, [PathNode(), PathNode(), PathNode()], false)
+
+"""
+    Describes a Hexagonal tile on a given board around which settlements/cities/raods exists or can possibly be built. 
+
+    Stores data on whether or not a player is occupying it, and what structure is on it. Stores info on whether or not it is on a port. Also stores info on surrounding pathnodes.
+
+    Defaults to an empty, unblocked, desert, node.
+"""
+mutable struct TileNode
+    resourcetype #inits as nothing
+    blocked::Bool #inits as 0
+    structures::Array{StructureNode}
+end
+TileNode() = TileNode("Desert", 0, [StructureNode(), StructureNode(), StructureNode(), StructureNode(), StructureNode(), StructureNode()])

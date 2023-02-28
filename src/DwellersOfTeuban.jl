@@ -3,7 +3,8 @@ import Gtk, Test, Plots
 include("mapstructures.jl")
 export
     PathNode,
-    StructureNode
+    StructureNode,
+    TileNode
 
 include("player.jl")
 export

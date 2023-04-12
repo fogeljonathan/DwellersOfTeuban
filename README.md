@@ -1,2 +1,4 @@
 # DwellersOfTeuban
-Julia Project In Development. Fully-playable Settlers of Catan Clone, named after its creator Klaus Teuber. Aims to combine intelligent AI and a GUI to create a more engaging and user-friendly environment than currently available in the open-source space. 
+Julia Project No Longer In Development.
+
+Dev(s) has decided to create the project in another language, for distribution purposes. Julia (1.7) is yet to have a consistent and streamlined way to compile to a .exe, which is a goal of the project.
